@@ -1,5 +1,13 @@
     <?php include "header.php" ?>
 
+    <style>
+        .container {
+        text-decoration-color: white;
+        }
+    </style>
+
+    <div class="containter">
+
     <h1> 3.1 Write a simple PHP script to print your information (Name and your group id) </h1>
     <?php
     echo "Sara-Sofia Paananen <br>";
@@ -44,6 +52,7 @@
     <h1> 4. Take a screenshot of development environment </h1>
     <img src="proofpic.jpg" alt="exercise 4">
 
+    
     <?php include "footer.php" ?>
 
 
