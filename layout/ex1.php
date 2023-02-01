@@ -17,9 +17,33 @@
     echo "<h1>" . $title1 . "</h1>";
     ?>
 
-    <h1> 3.5 $g1=5, $g2=4, $g3=5. These are the grades for 3 students in the course. Use HTML table into echo and include 3 columns S.n., Name, and grade. Your table should look like the one below: </h1>
-    
+    <h1> 3.5 Use HTML table into echo and include 3 columns S.n., Name, and grade. </h1>
+    <?php
+    $g1 = 5;
+    $g2 = 4;
+    $g3 = 3;
+    echo "
+    <table>
+    <tr>
+    <th>S.N</th><th>Name</th><th>Grade</th>
+    </tr>
+    <tr>
+    <td>1</td><td>Pekka</td><td>$g1</td>
+    </tr>
+    <tr>
+    <td>2</td><td>Johanna</td><td>$g2</td>
+    </tr>
+    <tr>
+    <td>3</td><td>John</td><td>$g3</td>
+    </tr>
+    </table>
+    ";
+    ?>
 
+    <h1> 4. Take a screenshot of development environment </h1>
+    <img src="proofpic.jpg" alt="exercise 4">
+
+    
     <?php include "footer.php" ?>
 
 
