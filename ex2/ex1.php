@@ -1,8 +1,8 @@
     <?php include "header.php" ?>
 
     <style>
-        .container {
-        text-decoration-color: white;
+        .containter {
+            color: white;
         }
     </style>
 

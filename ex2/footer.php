@@ -47,6 +47,10 @@
       © 2020 Copyright:
       <a class="text-white" href="main.html">FestEvent</a>
     </div>
+
+    <h2>
+    7. rite a PHP script in the footer section of your universal footer just below the Copyright information to display the last modification time of a file.
+    </h2>
     <!-- Copyright -->
   </footer>
   <!--Footer ends-->

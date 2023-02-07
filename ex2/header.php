@@ -77,6 +77,7 @@
               <li class="nav-item">
                 <a class="nav-link text-white" href="ex1.php">Ex1</a>
               </li>
+              
             </ul>
         </div>
         </div>

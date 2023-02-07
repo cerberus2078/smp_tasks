@@ -8,6 +8,13 @@
   </div>
   <!-- Copyright -->
 
+  <div class="text-center">
+    <?php
+    $path = $_SERVER['PHP_SELF'];
+    echo "Last modified ".date("F d Y H:i:s", filemtime(basename($path)));
+    ?>
+  </div>
+
 </footer></div>
 </div>
 

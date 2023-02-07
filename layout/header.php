@@ -31,10 +31,13 @@
           <a class="nav-link" href="header.php">Header</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="aboutus.php">About Us</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="ex1.php">Ex1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="aboutus.php">About Us</a>
+          <a class="nav-link" href="variable.php">Ex3</a>
         </li>
         
       </ul>
