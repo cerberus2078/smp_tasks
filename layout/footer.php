@@ -10,8 +10,9 @@
 
   <div class="text-center">
     <?php
-    $path = $_SERVER['PHP_SELF'];
-    echo "Last modified ".date("F d Y H:i:s", filemtime(basename($path)));
+    $fname = basename($_SERVER['PHP_SELF']) ;
+    $last_modified = filemtime($fname);
+    echo "Last modified on: " . date('l jS \o\f F Y, h:i:s A', $last_modified);
     ?>
   </div>
 
