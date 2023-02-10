@@ -34,7 +34,7 @@
           <a class="nav-link" href="ex4.php">Ex4</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.php">Ex5</a>
+          <a class="nav-link" aria-current="page" href="array.php">Ex5</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="header.php">Header</a>
