@@ -35,7 +35,7 @@ function crud(){
     }
 }
 
-function fnameVal(){
+function fname(){
     let fname=(document.form1.fname.value).trim();
     if(fname.length<5){
         alert("First Name must have at least 5 characters");
